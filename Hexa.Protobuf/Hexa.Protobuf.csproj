@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Hexa.Protobuf</PackageId>
+		<PackageVersion>1.0.0.0</PackageVersion>
+		<Authors>Juna</Authors>
+		<AssemblyName>Hexa.Protobuf</AssemblyName>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/HexaEngine/HexaEngine</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/HexaEngine/HexaEngine</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Description>A code generator for generating binary serialization.</Description>
+		<PackageTags>code-gen csharp roslyn protobuf</PackageTags>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+		<GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Hexa.Protobuf.Analyzer\Hexa.Protobuf.Analyzer.csproj" />
+	</ItemGroup>
+
+</Project>
