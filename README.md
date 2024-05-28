@@ -1,6 +1,6 @@
 # Hexa.Protobuf
 
-`Hexa.Protobuf` is a powerful inline code generator for Protobuf, designed to work via Roslyn analyzers. It enables seamless generation and integration of Protobuf serialization code directly in your .NET projects, enhancing build-time type checking and reducing runtime errors.
+`Hexa.Protobuf` is a powerful inline code generator for Protobuf, designed to work via Roslyn analyzers. It enables seamless generation and integration of Protobuf serialization code directly in your .NET projects, enhancing build-time type checking and reducing runtime errors. The library targets `netstandard2.0`, ensuring broad compatibility across different .NET implementations.
 
 ## Features
 
@@ -14,7 +14,7 @@
 ### Prerequisites
 
 Ensure you have the following installed:
-- .NET SDK (version 6.0 or later)
+- .NET SDK supporting `netstandard2.0` (e.g., .NET Core 2.0 or later, .NET Framework 4.6.1 or later)
 - An IDE that supports Roslyn analyzers (e.g., Visual Studio, Visual Studio Code with OmniSharp)
 
 ### Installation
