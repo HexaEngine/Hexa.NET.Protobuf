@@ -13,9 +13,8 @@
 		<PackageVersion>1.0.0.0</PackageVersion>
 		<Authors>Juna</Authors>
 		<AssemblyName>Hexa.Protobuf</AssemblyName>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/HexaEngine/HexaEngine</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/HexaEngine/HexaEngine</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/HexaEngine/Hexa.Protobuf</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/HexaEngine/Hexa.Protobuf</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<Description>A code generator for generating binary serialization.</Description>
@@ -25,10 +24,17 @@
 		<GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
 		<GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Hexa.Protobuf.Analyzer\Hexa.Protobuf.Analyzer.csproj" />
+		<Content Include="../LICENSE" Pack="true" PackagePath="\" />
+		<Content Include="../README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Hexa.Protobuf.Analyzer\Hexa.Protobuf.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 
 </Project>
