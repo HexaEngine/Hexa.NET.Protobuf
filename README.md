@@ -1,6 +1,6 @@
 # Hexa.Protobuf
 
-`Hexa.Protobuf` is a powerful inline code generator for Protobuf, designed to work via Roslyn analyzers. It enables seamless generation and integration of Protobuf serialization code directly in your .NET projects, enhancing build-time type checking and reducing runtime errors. The library targets `netstandard2.0`, ensuring broad compatibility across different .NET implementations.
+`Hexa.Protobuf` is a powerful inline code generator for Protobuf (work in progress), designed to work via Roslyn analyzers. It enables seamless generation and integration of Protobuf serialization code directly in your .NET projects, enhancing build-time type checking and reducing runtime errors. The library targets `netstandard2.0`, ensuring broad compatibility across different .NET implementations.
 
 ## Features
 
