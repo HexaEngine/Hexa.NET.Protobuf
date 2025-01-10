@@ -1,7 +1,6 @@
 ﻿namespace Hexa.Prototype
 {
     using Microsoft.CodeAnalysis.CSharp.Syntax;
-    using System;
     using System.Xml;
 
     public class ProtoEnum : ProtoType
@@ -31,7 +30,7 @@
 
         public List<ProtoEnumItem> Items => items;
 
-        public override void Resolve(List<ProtoType> types)
+        public override void Resolve(IEnumerable<ProtoType> types)
         {
             // nothing to do here.
         }

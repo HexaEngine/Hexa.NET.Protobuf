@@ -40,7 +40,7 @@
 
         public string Namespace { get; set; }
 
-        public override void Resolve(List<ProtoType> types)
+        public override void Resolve(IEnumerable<ProtoType> types)
         {
             for (int i = 0; i < fields.Count; i++)
             {

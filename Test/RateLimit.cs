@@ -1,6 +1,6 @@
 namespace Test
 {
-    using Hexa.Protobuf;
+    using Hexa.NET.Protobuf;
 
     [ProtobufRecord]
     public partial struct RateLimit

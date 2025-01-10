@@ -35,7 +35,7 @@
             var semanticModel = context.SemanticModel;
             var structDeclaration = context.Node as StructDeclarationSyntax;
             var structSymbol = semanticModel.GetDeclaredSymbol(structDeclaration);
-            if (structDeclaration == null || !structSymbol.GetAttributes().Any(ad => ad.AttributeClass.ToDisplayString() == "Hexa.Protobuf.ProtobufRecordAttribute"))
+            if (structDeclaration == null || !structSymbol.GetAttributes().Any(ad => ad.AttributeClass.ToDisplayString() == "Hexa.NET.Protobuf.ProtobufRecordAttribute"))
             {
                 return;
             }

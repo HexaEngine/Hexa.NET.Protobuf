@@ -1,4 +1,4 @@
-﻿namespace Hexa.Protobuf
+﻿namespace Hexa.NET.Protobuf
 {
     using System;
 

@@ -15,6 +15,6 @@
 
         public string Name => name;
 
-        public abstract void Resolve(List<ProtoType> types);
+        public abstract void Resolve(IEnumerable<ProtoType> types);
     }
 }

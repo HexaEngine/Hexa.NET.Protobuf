@@ -2,7 +2,7 @@
 {
     public static class Helper
     {
-        public static ProtoType ResolveType(string name, List<ProtoType> types)
+        public static ProtoType ResolveType(string name, IEnumerable<ProtoType> types)
         {
             foreach (ProtoType type in types)
             {

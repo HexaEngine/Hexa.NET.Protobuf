@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hexa.Protobuf.Analyzer\Hexa.Protobuf.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
-    <ProjectReference Include="..\Hexa.Protobuf\Hexa.Protobuf.csproj" />
+    <ProjectReference Include="..\Hexa.NET.Protobuf.Analyzer\Hexa.NET.Protobuf.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\Hexa.NET.Protobuf\Hexa.NET.Protobuf.csproj" />
   </ItemGroup>
 
 </Project>

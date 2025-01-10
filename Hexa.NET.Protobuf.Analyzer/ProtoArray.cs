@@ -39,7 +39,7 @@
 
         public int Size { get; } = -1;
 
-        public override void Resolve(List<ProtoType> types)
+        public override void Resolve(IEnumerable<ProtoType> types)
         {
             ArrayItemType = Helper.ResolveType(ArrayItemType.Name, types);
         }

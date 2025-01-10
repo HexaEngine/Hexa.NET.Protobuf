@@ -9,10 +9,10 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>Hexa.Protobuf</PackageId>
-		<PackageVersion>1.0.0.0</PackageVersion>
+		<PackageId>Hexa.NET.Protobuf</PackageId>
+		<PackageVersion>1.0.0-a</PackageVersion>
 		<Authors>Juna</Authors>
-		<AssemblyName>Hexa.Protobuf</AssemblyName>
+		<AssemblyName>Hexa.NET.Protobuf</AssemblyName>
 		<PackageProjectUrl>https://github.com/HexaEngine/Hexa.Protobuf</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/HexaEngine/Hexa.Protobuf</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
@@ -34,7 +34,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Hexa.Protobuf.Analyzer\Hexa.Protobuf.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	  <ProjectReference Include="..\Hexa.NET.Protobuf.Analyzer\Hexa.NET.Protobuf.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 
 </Project>

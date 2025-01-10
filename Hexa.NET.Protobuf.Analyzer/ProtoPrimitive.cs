@@ -43,7 +43,7 @@
 
         public int SizeInBytes { get; }
 
-        public override void Resolve(List<ProtoType> types)
+        public override void Resolve(IEnumerable<ProtoType> types)
         {
         }
 
